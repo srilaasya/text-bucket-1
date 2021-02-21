@@ -11,11 +11,17 @@
         <script src="loaddoc.js"></script>
     </head>
     <body onload="loaddoc()">
-        <h1>Text-Bucket</h1>Share text instantly
-        <div id='deliver'></div>
-        <h2 id='srcfile'>New Source File</h2>
-        Name: <input type=text id='name'><br/>
-        <textarea style='width:100%;height:640px' id='send'></textarea>
-        <button onClick='postcode()' id='forkbtn'>Upload</button>
+        <div class='heading'>
+            <h1>Text Bucket</h1>
+        </div>
+        <div class='body1'> 
+            Name: <input type=text id='name' placeholder="Name your text file"> 
+        </div>
+        <div class='textarea'>
+            <textarea style='width:100%;height:640px' id='send'></textarea>
+        </div>
+        <div class='button1'>
+            <button onClick='postcode()'>Upload</button>
+        </div>
     </body>
 </html>
