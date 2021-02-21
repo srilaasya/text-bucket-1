@@ -66,6 +66,21 @@ button {
     transition-duration: 0.4s;
     display:inline-block;    
     margin:0 auto;
+    position: relative;
+  }
+
+  .button-container {
+    height: 75px;
+    position: relative;
+  }
+  
+  .button-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 
   button:hover {
